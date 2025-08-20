@@ -1,3 +1,4 @@
+    /* index.html */
 *{
     padding: 0;
     margin: 0;
@@ -5,33 +6,39 @@
     font-family:'Times New Roman', Times, serif;
 }
 .containter{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
     margin: 0 auto;
-    gap: 29px;
+    gap: 25px;
+    background-image:url(./image/duo\ race.jpg) ;
+    background-repeat: no-repeat;
+     background-size: cover;
+     flex-direction:column ;
+     height: 790px;
+     width: 100%;
+
 }
  .header{
     width: 10%;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     margin-bottom: 40px;
     padding-bottom: 20px;
 }
 .logo img{
     width: 250px;
     height: 100px;
+    border-radius: 100px;
+    /* border: 2px solid red; */
 }
 nav{
   display: flex;
-  gap: 200px;
+  gap: 95px;
   justify-content: flex-end;
-
+    /* border: 2px solid red; */
 }
 nav ul{
     display: flex;
-    gap: 50px;
+    gap: 150px;
 }
 nav ul li{
     font-size: 20px;
@@ -45,4 +52,117 @@ nav ul li a{
     text-decoration:none ;
     color:rgb(255, 174, 0) ;
     cursor: pointer;
+
+}
+nav ul li a:hover{
+    color: red;
+    border-bottom:2px solid blue;
+    border-top:2px solid blue ;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.button1{
+    font-size: 25px;
+    font-weight: 500;
+    color:white ;
+    background-color: gray;
+    cursor: pointer;
+}
+.button1:hover{
+    color: aqua;
+    background-color:purple;
+}
+.button2{
+    font-size: 25px;
+    font-weight: 500;
+    color:white ;
+    background-color:goldenrod;
+    cursor: pointer;
+}
+.button2:hover{
+    color:black ;
+    background-color:gold;
+}
+.hero{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+
+}
+.hero-button{
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    color:black ;
+    background-color:white;
+    cursor: pointer; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.hero-text {
+    display: grid;
+    color: orange;
+    gap: 2px;
+
+}
+.hero-title{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.hero-meta{
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-meta span {
+    color: goldenrod;
+}
+.hero-content{
+    font-size: 20px;
+    font-weight: 500;
+}
+.containter footer{
+    
+    padding: 40px 20px 20px;
+    margin-top: 40px;
+}
+.containter footer a{
+    padding: 15px;
+    outline: none;
+    text-decoration:none ;
+    color:navy ;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+}
+.containter footer a:hover{
+    color: green;
+    border-bottom:2px solid blue;
+    border-top:2px solid blue ;
+}
+      /* TYPE */
+.type{
+    display: flex;
+    justify-content: center;
+}
+.car{
+    display: grid;
+    gap: 50px;
+}
+.car a{
+    text-decoration: none;
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+    width: 1500px;
+    border: 2px solid goldenrod;
+    padding: 2px;
+    justify-content: center;
+
 }
