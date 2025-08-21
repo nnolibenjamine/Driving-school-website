@@ -22,7 +22,7 @@
     align-items: center;
     gap: 50px;
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 }
 .logo img{
     width: 250px;
@@ -47,7 +47,7 @@ nav ul li{
     letter-spacing: 1px;
 }
 nav ul li a{
-    padding: 15px;
+     padding: 15px; 
     outline: none;
     text-decoration:none ;
     color:rgb(255, 174, 0) ;
@@ -89,19 +89,30 @@ nav ul li a:hover{
 }
 .hero{
     display: flex;
-    gap: 200px;
-    justify-content: space-between;
-
+    justify-content: space-between; 
 }
-.hero-button{
-    display: flex;
-    font-size: 25px;
-    font-weight: 500;
-    color:black ;
-    background-color:white;
-    cursor: pointer; 
-    justify-content: center;
-    flex-wrap: wrap; 
+.drop-down span{
+    position: relative;
+    display: inline-block;
+    color: navy;
+    background-color: white;
+    font-size: xx-large;
+}
+.drop-content{
+    display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 16px;
+  box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+  padding: 50px 40px;
+  z-index: 2;
+}
+.drop-down span:hover{
+    color: black;
+} 
+.drop-down:hover .drop-content{
+    display: block; 
+    color: black;
 }
 .hero-text {
     display: grid;
@@ -126,9 +137,8 @@ nav ul li a:hover{
     font-weight: 500;
 }
 .containter footer{
-    
-    padding: 40px 20px 20px;
-    margin-top: 40px;
+    padding: 40px 20px 20px; 
+    margin-top: 40px; 
 }
 .containter footer a{
     padding: 15px;
@@ -144,6 +154,12 @@ nav ul li a:hover{
     border-bottom:2px solid blue;
     border-top:2px solid blue ;
 }
+.map{
+    width: 20px;
+    height: 20px;
+}
+
+
       /* TYPE */
 .type{
     display: flex;
@@ -163,6 +179,5 @@ nav ul li a:hover{
     width: 1500px;
     border: 2px solid goldenrod;
     padding: 2px;
-    justify-content: center;
-
+    text-align: center;
 }
