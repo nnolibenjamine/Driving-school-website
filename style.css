@@ -8,7 +8,7 @@
 .containter{
     margin: 0 auto;
     gap: 25px;
-    background-image:url(./image/duo\ race.jpg) ;
+    background-image:url(./image/driving\ school\ background.jpg) ;
     background-repeat: no-repeat;
      background-size: cover;
      flex-direction:column ;
@@ -50,7 +50,7 @@ nav ul li a{
      padding: 15px; 
     outline: none;
     text-decoration:none ;
-    color:rgb(255, 174, 0) ;
+    color:black;
     cursor: pointer;
 
 }
@@ -91,12 +91,13 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between; 
 }
-.drop-down span{
+.drop-button{
     position: relative;
     display: inline-block;
     color: navy;
     background-color: white;
     font-size: xx-large;
+    cursor: pointer;
 }
 .drop-content{
     display: none;
@@ -107,16 +108,19 @@ nav ul li a:hover{
   padding: 50px 40px;
   z-index: 2;
 }
-.drop-down span:hover{
+.drop-button:hover{
     color: black;
 } 
 .drop-down:hover .drop-content{
     display: block; 
     color: black;
 }
+/* {
+    color: red;
+} */
 .hero-text {
     display: grid;
-    color: orange;
+    color: gold;
     gap: 2px;
 
 }
@@ -130,7 +134,7 @@ nav ul li a:hover{
     font-weight: 500;
 }
 .hero-meta span {
-    color: goldenrod;
+    color: green;
 }
 .hero-content{
     font-size: 20px;
@@ -138,7 +142,9 @@ nav ul li a:hover{
 }
 .containter footer{
     padding: 40px 20px 20px; 
-    margin-top: 40px; 
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+    flex-direction: column;
 }
 .containter footer a{
     padding: 15px;
@@ -147,16 +153,13 @@ nav ul li a:hover{
     color:navy ;
     cursor: pointer;
     font-size: 25px;
+    text-align: center;
     font-weight: 500;
 }
 .containter footer a:hover{
     color: green;
     border-bottom:2px solid blue;
     border-top:2px solid blue ;
-}
-.map{
-    width: 20px;
-    height: 20px;
 }
 
 
@@ -180,4 +183,13 @@ nav ul li a:hover{
     border: 2px solid goldenrod;
     padding: 2px;
     text-align: center;
+}
+      /* truck */
+.image{
+display: flex;
+max-width: 1200px;
+}
+.image img{
+    height: 250px;
+    width: 250px;
 }
