@@ -184,12 +184,21 @@ nav ul li a:hover{
     padding: 2px;
     text-align: center;
 }
-      /* truck */
-.image{
+      /* type-image */
+.type-image{
 display: flex;
-max-width: 1200px;
+}
+
+.image{
+    display: grid;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 50px;
+
 }
 .image img{
-    height: 250px;
-    width: 250px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px;
 }
