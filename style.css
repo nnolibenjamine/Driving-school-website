@@ -201,11 +201,56 @@ display: flex;
 .service{
     max-width: 100%;
     background-color: aqua black green;
+    display: grid;
+}
+.price-cost{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.price{
+    justify-content: center;
+    border: 2px solid  green;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2); 
+    padding: 2px 2px;
+    text-align: center;
+    flex-direction: row;
+    width: 300px;
+    height: 400px;
+    gap: 50px;
+    background-color: black ;
+}
+.price h2{
+    font-size: 50px;
+    color: goldenrod;
+    margin-top: 100px;
+}
+.price p{
+    font-size: 50px;
+    text-align: center;
+    color: gold;
 }
 .type-course{
     text-align: center;
     text-decoration: none;
-    color: brown;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.people{
+    border: 3px solid none;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.people img{
+    border-radius: 20px;
+}
+.people p{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 10px;
 }
 .type-car{
     display: grid;
@@ -216,22 +261,28 @@ display: flex;
    align-items: baseline;
 }
  h1{
-    color: brown;
+    color: blue;
     font-size: xx-large;
     text-align: center;
+    padding: 20px 20px;
 }
 .type-car img{
     width: 250px;
     height: 250px;
 }
 .car{
-    justify-content: center;
-    border: 2px solid ;
-    border-radius: 20px;
-    box-sizing: border-box;
-    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2); 
+    justify-content: center; 
     padding: 20px 20px;
     text-align: center;
     font-size: xx-large;
-
+}
+.teacher{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.teacher img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
 }
