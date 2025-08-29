@@ -34,17 +34,18 @@ nav{
   display: flex;
   gap: 95px;
   justify-content: flex-end;
-    /* border: 2px solid red; */
+    
 }
 nav ul{
     display: flex;
-    gap: 150px;
+    gap: 130px;
 }
 nav ul li{
     font-size: 20px;
     font-weight: 500;
     list-style: none;
-    letter-spacing: 1px;
+    width: 160px;
+    
 }
 nav ul li a{
      padding: 15px; 
@@ -52,6 +53,7 @@ nav ul li a{
     text-decoration:none ;
     color:orange;
     cursor: pointer;
+    width: 1200px;
 
 }
 nav ul li a:hover{
@@ -67,6 +69,8 @@ nav ul li a:hover{
 .hero{
     display: grid;
     gap: 20px;
+    background-color: white;
+    width: 720px;
 }
 .drop-button{
     position: relative;
@@ -236,10 +240,10 @@ display: flex;
     text-align: center;
     text-decoration: none;
     gap: 30px;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
-.people{
+/* .people{
     border: 3px solid none;
     border-radius: 20px;
     padding: 20px 20px;
@@ -251,7 +255,7 @@ display: flex;
     font-size: 30px;
     font-weight: 500;
     padding: 10px 10px;
-}
+} */
 .type-car{
     display: grid;
     gap: 50px;
@@ -285,4 +289,26 @@ display: flex;
     width: 250px;
     height: 250px;
     border-radius: 10px;
+}
+                /* contact */
+.con{
+    gap: 20px;
+}
+.contact{
+    font-size: 50px;
+    width: 1200px;
+    border-radius: 30px;
+    border: 2px solid grey;
+}
+.contact-b{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    width: 500px;
+    border-radius: 50px;
+}
+.people{
+    display: grid;
+    font-size: 20px;
 }
