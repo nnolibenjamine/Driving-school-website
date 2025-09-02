@@ -1,3 +1,7 @@
+       /* for all         */
+    .all{
+        background-color: #e5e5e5;
+    }
     /* index.html */
 *{
     padding: 0;
@@ -23,6 +27,8 @@
     gap: 50px;
     margin-bottom: 40px;
     padding-bottom: 20px; 
+    background-color: blue;
+    width: 100%;
 }
 .logo img{
     width: 250px;
@@ -34,6 +40,7 @@ nav{
   display: flex;
   gap: 95px;
   justify-content: flex-end;
+  
     
 }
 nav ul{
@@ -51,7 +58,8 @@ nav ul li a{
      padding: 15px; 
     outline: none;
     text-decoration:none ;
-    color:orange;
+    color: white;
+    font-weight: bolder;
     cursor: pointer;
     width: 1200px;
 
@@ -61,22 +69,34 @@ nav ul li a:hover{
     border-bottom:2px solid blue;
     border-top:2px solid blue ;
 }
-.button{
+
+.hero{
+    padding: 20px;
+    display: grid;
+    color: white;
+    gap: 2px;
+     font-size: 30px;
+    font-weight: 500;
+    
+}
+
+
+/* .button{
     display: flex;
     flex-direction: row;
     gap: 75px;
-}
+} */
 .hero{
     display: grid;
     gap: 20px;
-    background-color: white;
-    width: 720px;
+    /* background-color: #e5e5e5; */
+    width: 800px;
 }
 .drop-button{
     position: relative;
     display: inline-block;
-    color: navy;
-    background-color: white;
+    color: white;
+    background-color: black; 
     font-size: xx-large;
     cursor: pointer;
 }
@@ -89,6 +109,16 @@ nav ul li a:hover{
   padding: 50px 40px;
   z-index: 2;
   font-size: 20px;
+}
+.dr{
+    height: 20px;
+    width: 200px;
+    font-size: x-large;
+}
+.de{
+    height: 20px;
+    width: 80px;
+    font-size: x-large;
 }
 .drop-button:hover{
     color: black;
@@ -117,8 +147,10 @@ nav ul li a:hover{
 } */
 .hero-text {
     display: grid;
-    color: gold;
+    color: black;
     gap: 2px;
+    background-color: #e5e5e5;
+    padding: 30px 40px;
 
 }
 .hero-title{
@@ -131,7 +163,7 @@ nav ul li a:hover{
     font-weight: 500;
 }
 .hero-meta span {
-    color: green;
+    color: blue;
 }
 .hero-content{
     font-size: 25px;
@@ -203,14 +235,17 @@ display: flex;
 }
                                /* service */
 .service{
-    max-width: 100%;
-    background-color: aqua black green;
+    max-width: 1500px;
+    background-color: white;
     display: grid;
+    margin: 0 auto;
+
 }
 .price-cost{
     display: flex;
     gap: 50px;
     justify-content: center;
+    background-color: whitesmoke;
 }
 .price{
     justify-content: center;
@@ -242,6 +277,7 @@ display: flex;
     gap: 30px;
     display: grid;
     justify-content: center;
+    background-color: #f1f1f1;
 }
 /* .people{
     border: 3px solid none;
@@ -263,6 +299,7 @@ display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: baseline;
+   background-color: azure;
 }
  h1{
     color: blue;
@@ -284,6 +321,7 @@ display: flex;
     display: flex;
     gap: 20px;
     justify-content: center;
+    background-color: #e5e5e5;
 }
 .teacher img{
     width: 250px;
@@ -292,7 +330,11 @@ display: flex;
 }
                 /* contact */
 .con{
-    gap: 20px;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    
 }
 .contact{
     font-size: 50px;
@@ -311,4 +353,12 @@ display: flex;
 .people{
     display: grid;
     font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+
+             /* ABOUT */
+.about{
+    background-color: white;
+    max-width: 1500px;
+    margin: 0 auto;
 }
